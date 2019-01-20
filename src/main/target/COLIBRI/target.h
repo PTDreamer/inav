@@ -156,3 +156,9 @@
 #define MAX_PWM_OUTPUT_PORTS    15
 
 #undef USE_PITOT
+
+#define USE_ADC
+#define ADC_CHANNEL_1_PIN               PA0
+#define ADC_CHANNEL_2_PIN               PA1
+#define CURRENT_METER_ADC_CHANNEL       ADC_CHN_1
+#define VBAT_ADC_CHANNEL                ADC_CHN_2

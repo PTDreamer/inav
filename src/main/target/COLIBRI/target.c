@@ -30,9 +30,7 @@ const timerHardware_t timerHardware[] = {
     { TIM8, IO_TAG(PC8),  TIM_Channel_3, 0, IOCFG_IPD, GPIO_AF_TIM8,    TIM_USE_PWM }, // S4_IN
     { TIM2, IO_TAG(PA15), TIM_Channel_1, 0, IOCFG_IPD, GPIO_AF_TIM2,    TIM_USE_PWM }, // S5_IN
     { TIM2, IO_TAG(PB3),  TIM_Channel_2, 0, IOCFG_IPD, GPIO_AF_TIM2,    TIM_USE_PWM }, // S6_IN
-    { TIM5, IO_TAG(PA0),  TIM_Channel_1, 0, IOCFG_IPD, GPIO_AF_TIM5,    TIM_USE_PWM }, // S7_IN
-    { TIM5, IO_TAG(PA1),  TIM_Channel_2, 0, IOCFG_IPD, GPIO_AF_TIM5,    TIM_USE_PWM }, // S8_IN
-
+  
     { TIM3,  IO_TAG(PB0),  TIM_Channel_3, 1, IOCFG_AF_PP_PD, GPIO_AF_TIM3,  TIM_USE_MC_MOTOR |                    TIM_USE_FW_SERVO }, // S1_OUT
     { TIM3,  IO_TAG(PB4),  TIM_Channel_1, 1, IOCFG_AF_PP_PD, GPIO_AF_TIM3,  TIM_USE_MC_MOTOR |                    TIM_USE_FW_SERVO }, // S2_OUT
     { TIM3,  IO_TAG(PB1),  TIM_Channel_4, 1, IOCFG_AF_PP_PD, GPIO_AF_TIM3,  TIM_USE_MC_MOTOR |                    TIM_USE_FW_SERVO }, // S3_OUT
